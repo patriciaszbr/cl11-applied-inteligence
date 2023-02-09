@@ -17,7 +17,7 @@ export const Container = styled.div`
   }
 
   h1 {
-    color: #7B68EE;
+    color: #A600FF;
     margin-left: auto;
     margin-right: auto;
     margin-top: 24px;

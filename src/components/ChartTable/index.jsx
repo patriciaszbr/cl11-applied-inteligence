@@ -49,15 +49,6 @@ const ChartTable = () => {
 
   return (
     <> 
-      <TableContainer>
-      <Chart
-        options={data.options} 
-        series={data.series}
-        type="bar" 
-        width={500}
-        height={320} />
-     </TableContainer>
-     
        <TableContainer>
          <Table>
           <tbody>
@@ -93,6 +84,15 @@ const ChartTable = () => {
             </tr>
           </tbody>
         </Table>
+     </TableContainer>
+     <TableContainer>
+        <Chart
+          options={data.options} 
+          series={data.series}
+          type="bar" 
+          width={500}
+          height={320} 
+        />
      </TableContainer>
     </>
 

@@ -1,9 +1,9 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.div`
   height: 100px;
   display: flex;
-  background-color: #1A202C; 
+  background-color: #1a202c;
   box-shadow: 0 0 20px 3px;
 
   > svg {
@@ -17,20 +17,19 @@ export const Container = styled.div`
   }
 
   h1 {
-    color: #A600FF;
+    color: #a600ff;
     margin-left: auto;
     margin-right: auto;
     margin-top: 24px;
-
   }
-`;
+`
 
 export const TableContainer = styled.main`
   width: 100%;
   max-width: 1120px;
   margin: 4rem auto 0;
   padding: 0 1.5rem;
-`;
+`
 
 export const Table = styled.table`
   width: 100%;
@@ -39,7 +38,7 @@ export const Table = styled.table`
   margin-top: 1.5rem;
   td {
     padding: 1.25rem 2rem;
-    background: #1A202C;
+    background: #1a202c;
     color: white;
 
     &:first-child {
@@ -52,4 +51,4 @@ export const Table = styled.table`
       border-bottom-right-radius: 6px;
     }
   }
-`;
+`

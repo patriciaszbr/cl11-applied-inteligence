@@ -1,9 +1,9 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.div`
   height: 100px;
   display: flex;
-  background-color: #1A202C; 
+  background-color: #1a202c;
   box-shadow: 0 0 20px 3px;
 
   > svg {
@@ -21,16 +21,13 @@ export const Container = styled.div`
     margin-right: auto;
   }
   h1 {
-    color: #A600FF;
+    color: #a600ff;
     margin-left: auto;
     margin-right: auto;
     margin-top: 24px;
-
   }
   img {
     margin-left: auto;
     margin-right: auto;
-
   }
- 
-`;
+`

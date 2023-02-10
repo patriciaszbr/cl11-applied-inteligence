@@ -12,10 +12,10 @@ const Header = () => {
   return (
     <Container>
       <FaBars onClick={showSiderbar} />
-        <div className='logo'>
-        <img className='logo' src={logo} />
+      <div className="logo">
+        <img className="logo" src={logo} />
         <h1>Applied Intelligence </h1>
-        </div>
+      </div>
       {sidebar && <Sidebar active={setSidebar} />}
     </Container>
   )

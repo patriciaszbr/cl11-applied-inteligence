@@ -1,10 +1,14 @@
-import './App.css';
+import './App.css'
 import Header from './components/Header'
+import ChartTable from './components/ChartTable'
 
 function App() {
   return (
-    <Header />
-  );
+    <>
+      <Header />
+      <ChartTable />
+    </>
+  )
 }
 
-export default App;
+export default App
